@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.content{
+  flex-grow:unset;
+}
+
+
+.items{
+  font-weight: 800;
+  color:#0044cc;
+  text-decoration: underline;
+  font-family: "PT Serif", serif;
+  font-size:1.2rem;
+}
+
+.main-nav{
+  padding:unset;
+  margin-top: 40px;
+}
+.navbar>.container-fluid{
+  background-color:#bbdefb;
+  height:100px;
+  padding:10px 20px;
+}
+
+.ul{
+  width:700px;
+  display:flex;
+  justify-content:space-evenly;
+}
+.logo{
+    size:1rem;
+    height:100px;
+    width:100px;
+    border-radius: 20%;
+    
+}

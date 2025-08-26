@@ -1,0 +1,22 @@
+.comp{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #e3f2fd;
+}
+.card{
+  margin:100px;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  height:350px;
+  width:500px;
+}
+
+@media (max-width: 800px) {
+  .comp {
+    flex-direction: column;
+  }
+}

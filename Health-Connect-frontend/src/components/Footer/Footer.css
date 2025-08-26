@@ -1,0 +1,79 @@
+/* Container styling */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap'); 
+.container {
+ max-width: 100%;
+  margin: 0 auto;
+  /* paddi; */
+  font-family: "PT Serif", serif;
+}
+
+/* Footer styling */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #3e8ada; */
+  background-color: #3985d9;
+  padding: 1rem 0; /* Adjust padding to your preference */
+  border-top: 1px solid #dee2e6;
+  padding:10px 50px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 0.9rem;
+}
+
+/* Section styling */
+.footer-section {
+  text-align: left;
+}
+
+.footer-section h5 {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section .nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section .nav-link {
+  color: black;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-section .nav-link:hover {
+  color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 550px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-section {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+
+
+.logo{
+  
+  height:50px;
+  width:50px;
+  border-radius: 20%;
+  
+}
+
