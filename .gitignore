@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+Health-Con/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+*.env
+Health-Con/*.env
+
+# Build outputs (frontend)
+public/build/
+src/build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# npm package-lock
+package-lock.json
+Health-Con/package-lock.json
+
+# Optional: coverage (if you use testing tools)
+coverage/
